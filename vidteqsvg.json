@@ -1,0 +1,268 @@
+{
+  "High-court.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 300,
+    "y": 690
+  },
+  "IIMB.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 364,
+    "y": 690
+  },
+  "IISC.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 428,
+    "y": 690
+  },
+  "Junction": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 492,
+    "y": 690
+  },
+  "MA_Chidambaram_Stadium": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 600,
+    "y": 0
+  },
+  "Mangala": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 0,
+    "y": 0
+  },
+  "Mysore-Race-Course": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 664,
+    "y": 0
+  },
+  "Sri_Sri4.png": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 300,
+    "y": 0
+  },
+  "airport": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 728,
+    "y": 0
+  },
+  "arrow": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 792,
+    "y": 0
+  },
+  "banyan-tree-logo": {
+    "height": 25,
+    "pixelRatio": 1,
+    "width": 25,
+    "x": 908,
+    "y": 460
+  },
+  "banyan-tree-logo1b.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 856,
+    "y": 0
+  },
+  "bus": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 920,
+    "y": 0
+  },
+  "divider": {
+    "height": 20,
+    "pixelRatio": 1,
+    "width": 20,
+    "x": 1176,
+    "y": 0
+  },
+  "gatti-subramanya-temple.png": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 0,
+    "y": 230
+  },
+  "golf.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 984,
+    "y": 0
+  },
+  "ifc7_20X20.gif": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 1048,
+    "y": 0
+  },
+  "iskon.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 1112,
+    "y": 0
+  },
+  "l": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 600,
+    "y": 230
+  },
+  "lu": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 664,
+    "y": 230
+  },
+  "meenakshi.png": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 300,
+    "y": 230
+  },
+  "metro_train": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 728,
+    "y": 230
+  },
+  "metro_train01": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 792,
+    "y": 230
+  },
+  "nandhi-hills1.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 856,
+    "y": 230
+  },
+  "nithyananda-ashrama.png": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 0,
+    "y": 460
+  },
+  "r": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 920,
+    "y": 230
+  },
+  "ru": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 984,
+    "y": 230
+  },
+  "s": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 1048,
+    "y": 230
+  },
+  "satya-saibaba.png": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 300,
+    "y": 460
+  },
+  "shield": {
+    "height": 28,
+    "pixelRatio": 1,
+    "width": 26,
+    "x": 856,
+    "y": 460
+  },
+  "shield-2": {
+    "height": 28,
+    "pixelRatio": 1,
+    "width": 26,
+    "x": 882,
+    "y": 460
+  },
+  "sl": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 1112,
+    "y": 230
+  },
+  "sr": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 600,
+    "y": 460
+  },
+  "sriram": {
+    "height": 230,
+    "pixelRatio": 1,
+    "width": 300,
+    "x": 0,
+    "y": 690
+  },
+  "toll1": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 664,
+    "y": 460
+  },
+  "train": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 728,
+    "y": 460
+  },
+  "wonderla.png": {
+    "height": 64,
+    "pixelRatio": 1,
+    "width": 64,
+    "x": 792,
+    "y": 460
+  },
+  "ww": {
+    "height": 20,
+    "pixelRatio": 1,
+    "width": 20,
+    "x": 1176,
+    "y": 230
+  }
+}
