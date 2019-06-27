@@ -22,7 +22,7 @@
 #include <conio.h>
 #include <time.h>
  //#include <ncurses.h>	
-void call();
+void puzzleRearrange();
 int count = 0;
 char a[9], ch;
 void test();
@@ -99,7 +99,7 @@ void test() {
         if (a[0] == '1' && a[1] == '2' && a[2] == '3' && a[3] == '4' && a[4] == '5' && a[5] == '6' && a[6] == '7' && a[7] == '8' && a[8] == ' ')
             break;
         else {
-            call();
+            puzzleRearrange();
         }
     }
     printf("\n**********puzzle is complite*********\n");
@@ -108,7 +108,7 @@ void test() {
     printf("\n total time= %d minute %d sec", t / 60, t % 60);
     printf("\n*********GAME IS SOLVED**************\n");
 }
-void call() {
+void puzzleRearrange() {
     printf("\n enter the move element::");
     int i, j;
     ch = getche();
