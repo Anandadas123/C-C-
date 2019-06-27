@@ -1,6 +1,15 @@
 #include<stdio.h> 
 #include<stdlib.h> 
   
+/*************************************************************************
+                     <-Question->
+
+        1. Is that the loop present in the link list
+        2. what is the total number of nodes are present in loop
+**************************************************************************
+ */
+
+
 /* Link list node */
 struct Node 
 { 
@@ -64,7 +73,7 @@ int main()
     /* Create a loop for testing */
     head->next->next->next->next->next = head->next; 
   
-    printf("%d \n", countNodesinLoop(head)); 
+    printf("\nTotal number of nodes are:\n%d \n", countNodesinLoop(head)); 
   
     return 0; 
 } 
