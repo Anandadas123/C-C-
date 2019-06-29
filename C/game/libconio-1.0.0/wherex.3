@@ -1,0 +1,35 @@
+.TH wherex 3 "Julio de 2004" "libconio 1.0.0" \
+
+.SH NOMBRE
+wherex, wherey \- retornan posición del cursor
+
+.SH SINOPSIS
+.B
+#include <conio.h>
+.PP
+.B int wherex(void);
+.br
+.B int wherey(void);
+
+.SH DESCRIPCIÓN
+.B wherex() 
+y 
+.B wherey() 
+sirven para saber en qué
+posición de la pantalla se encuentra el cursor.
+
+.SH VALOR DEVUELTO
+.B wherex()
+retorna como entero el número de columna donde está el cursor.
+.PP
+.B wherey()
+retorna como entero el número de renglón en que se encuentra el cursor.
+
+.SH VEA TAMBIÉN 
+.BR clreol (3), 
+.BR clrscr (3),
+.BR textcolor (3),  
+.BR textbackground (3),  
+.BR getch (3), 
+.BR getche (3),
+.BR gotoxy (3)

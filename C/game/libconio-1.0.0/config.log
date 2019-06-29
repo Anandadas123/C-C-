@@ -1,0 +1,120 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:728: checking for a BSD compatible install
+configure:781: checking whether build environment is sane
+configure:838: checking whether make sets ${MAKE}
+configure:884: checking for working aclocal-1.4
+configure:897: checking for working autoconf
+configure:910: checking for working automake-1.4
+configure:923: checking for working autoheader
+configure:936: checking for working makeinfo
+configure:959: checking for gcc
+configure:1072: checking whether the C compiler (gcc  ) works
+configure:1088: gcc -o conftest    conftest.c  1>&5
+configure:1085:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:1114: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1119: checking whether we are using GNU C
+configure:1128: gcc -E conftest.c
+configure:1147: checking whether gcc accepts -g
+configure:1184: checking for gcc
+configure:1234: checking for Cygwin environment
+configure:1250: gcc -c -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:1244:20: error: '__CYGWIN32__' undeclared (first use in this function)
+ #define __CYGWIN__ __CYGWIN32__
+                    ^
+configure:1246:8: note: in expansion of macro '__CYGWIN__'
+ return __CYGWIN__;
+        ^
+configure:1244:20: note: each undeclared identifier is reported only once for each function it appears in
+ #define __CYGWIN__ __CYGWIN32__
+                    ^
+configure:1246:8: note: in expansion of macro '__CYGWIN__'
+ return __CYGWIN__;
+        ^
+configure: failed program was:
+#line 1239 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:1267: checking for mingw32 environment
+configure:1279: gcc -c -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:1275:8: error: '__MINGW32__' undeclared (first use in this function)
+ return __MINGW32__;
+        ^
+configure:1275:8: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 1272 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:1296: checking how to run the C preprocessor
+configure:1317: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1451: checking host system type
+configure:1472: checking build system type
+configure:1534: checking for non-GNU ld
+configure:1569: checking if the linker (/usr/bin/ld) is GNU ld
+GNU ld (GNU Binutils for Ubuntu) 2.26.1
+configure:1586: checking for /usr/bin/ld option to reload object files
+configure:1598: checking for BSD-compatible nm
+configure:1636: checking for a sed that does not truncate output
+configure:1720: checking whether ln -s works
+configure:1741: checking how to recognise dependent libraries
+configure:1927: checking for object suffix
+configure:1933: gcc -c -g -O2  conftest.c 1>&5
+configure:1953: checking for executable suffix
+configure:1963: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1994: checking command to parse /usr/bin/nm -B output
+configure:2077: gcc -c -g -O2  conftest.c 1>&5
+configure:2080: /usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ ]\([ABCDGISTW][ABCDGISTW]*\)[ ][ ]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/  /p' > conftest.nm
+configure:2131: gcc -o conftest -g -O2   conftest.c conftstm.o 1>&5
+configure:2180: checking for dlfcn.h
+configure:2190: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2359: checking for ranlib
+configure:2426: checking for strip
+configure:2528: gcc -c -g -O2  conftest.c 1>&5
+configure:2683: checking for objdir
+configure:2710: checking for gcc option to produce PIC
+configure:2924: checking if gcc static flag  works
+configure:2939: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2966: checking if gcc supports -c -o file.o
+configure:2985: gcc -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+configure:3014: checking if gcc supports -c -o file.lo
+configure:3032: gcc -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+configure:3122: checking whether the linker (/usr/bin/ld) supports shared libraries
+configure:3821: checking how to hardcode library paths into programs
+configure:3849: checking whether stripping libraries is possible
+configure:3863: checking dynamic linker characteristics
+configure:4130: gcc -c -g -O2  conftest.c 1>&5
+configure:4301: checking if libtool supports shared libraries
+configure:4305: checking whether to build shared libraries
+configure:4328: checking whether to build static libraries
+configure:5481: checking for a BSD compatible install
+configure:5535: checking whether make sets ${MAKE}
+configure:5563: checking for ANSI C header files
+configure:5576: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:5643: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:5638:67: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                   ^
+configure:5638:67: warning: incompatible implicit declaration of built-in function 'exit'
+configure:5638:67: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:5639:1: warning: incompatible implicit declaration of built-in function 'exit'
+ exit (0); }
+ ^
+configure:5639:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:5670: checking for termios.h
+configure:5680: gcc -E  conftest.c >/dev/null 2>conftest.out

@@ -1,0 +1,30 @@
+.TH getch 3 "Julio de 2004" "libconio 1.0.0" \
+
+
+.SH NOMBRE
+getch, getche \- Obtener un caracter del teclado
+
+.SH SINOPSIS
+.B
+#include <conio.h>
+.PP
+.BI "int getch(void);"
+.br
+.BI "int getche(void);"
+
+.SH DESCRIPCION
+.B getch() 
+obtiene un caracter desde el teclado sin mostrarlo en la 
+pantalla.
+.PP
+.B getche() 
+funciona como getch pero muestra el caracter obtenido.
+.PP
+Ambas funciones devuelven el caracter en el momento en que es 
+introducido sin necesidad de presionar la tecla enter.
+
+.SH VEA TAMBIÉN 
+.BR clreol "(3), "wherex "(3), "
+.BR clrscr (3)
+.BR wherey "(3), "textcolor "(3), "textbackground "(3), " 
+.BR gotoxy (3)

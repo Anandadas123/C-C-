@@ -1,0 +1,71 @@
+.TH textcolor 3 "Julio de 2004" "libconio 1.0.0" \
+
+.SH NOMBRE
+textcolor, textbackground \- funciones para cambiar el color del texto
+
+.SH SINOPSIS
+.B
+#include <conio.h>
+.PP
+.BI "void textcolor(int "color );
+.br
+.BI "void textbackground(int "color );
+
+.SH DESCRIPCIÓN
+.B textcolor()
+y 
+.B textbackground()
+sirven para cambiar el color del texto y el color de fondo del texto
+respectivamente. El argumento 
+.I color
+es una constante entera definida en conio.h como se especifica a
+continuación.
+
+.TP
+Colores
+.B BLACK
+.br
+.B RED
+.br
+.B GREEN
+.br
+.B BROWN
+.br
+.B BLUE
+.br
+.B MAGENTA
+.br
+.B CYAN
+.br
+.B LIGHTGRAY
+.br
+.B DARKGRAY
+.br
+.B LIGHTRED
+.br
+.B LIGHTGREEN
+.br
+.B YELLOW
+.br
+.B LIGHTBLUE
+.br
+.B LIGHTMAGENTA
+.br
+.B LIGHTCYAN
+.br
+.B WHITE
+
+.PP
+Los colores desde 
+.B BLACK
+hasta
+.B LIGHTGRAY
+se pueden usar tanto para el texto como para el fondo y los restantes 
+sólo
+para el texto.
+
+.SH VEA TAMBIÉN 
+.BR clreol "(3), "clrscr "(3), "wherex "(3), "
+.BR wherey "(3),"
+.BR getch "(3), "getche "(3) "
+.BR gotoxy (3)

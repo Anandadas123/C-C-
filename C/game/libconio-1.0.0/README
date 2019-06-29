@@ -1,0 +1,12 @@
+Libconio versión 1.0.0
+
+(C) 2004 FSL A.C.
+
+Libconio es una librería que pretende implementar las funciones que 
+proporcionan algunos compiladores para Windows y DOS en el archivo 
+conio.h utilizando secuencias de escape ANSI y manipulando los atributos 
+de stdin mediante las funciones de termios.h.
+
+No se han incluido todas las funciones que se pueden encontrar en esos 
+compiladores pero sí las más habituales como clscr, clreol, gotoxy, getch, getche, textcolor, textbackground, wherex 
+y wherey.
