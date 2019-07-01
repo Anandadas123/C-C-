@@ -1,0 +1,4 @@
+  /* tile creation steps mbtiles to pbf file which is binary file not archive. */
+ 
+mb-util --image_format=pbf Label9.mbtiles Label9
+gzip -d -r -S .pbf *
