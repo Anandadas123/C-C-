@@ -1,5 +1,5 @@
 #                        Poetry-Corner Metting Topic 
-### Group Members
+### Team Members
 - Bhaskar Mangal
 - Das
 - Jayashree
