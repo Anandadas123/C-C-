@@ -110,7 +110,7 @@
 - Nikhil
 
 | SL No | Date-Of-Meeting | Agenda | Topic Discussion/Reason | Doc Location | Ratings |Feedback | TimeKeeper | StartTime  | EndTime  | ExtraTime(min)| Remarks |
-|:------|:---------:|-----:|-----:|-----:|-----:|----:|-----:|------:|----:|
+|:------|:---------:|-----:|-----:|-----:|-----:|----:|-----:|------:|----:|-------:|------:|
 | 1 | Friday, April 05, 2019 | Trends in Tiles | Discussed Tile relevance for Autonomy,Enligntened Tiles/Experiences | Navada and Das | http://10.4.71.121/internaldocs/poetry-corner/navada/05-04-2019/ |https://www.surveymonkey.com/results/SM-WHJWMLJGV/ | 5 | Nikhil | 04:10:00 | 05:25:00 | 15 | |
 | 2 | Wed, April 12, 2019 | ------------ | ~ changed meeting day from friday to wednesday ~ | ------------ |  |  |  |  |  |
 | 3 | Wed, April 17, 2019 | ------------ | ~ No topics and Anand sir was not prepared for MMS because of busy schedule ~ |  |  |  |  |  |  |
