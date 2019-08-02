@@ -2,3 +2,7 @@
  
 mb-util --image_format=pbf Label9.mbtiles Label9
 gzip -d -r -S .pbf *
+find . -type f  >blah
+1,$s/\(.*\)/mv \1 \1.pbf/
+
+
