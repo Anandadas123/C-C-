@@ -1,0 +1,158 @@
+ git clone https://github.com/openstreetmap/osm2pgsql.git
+ cd osm2pgsql/
+ mkdir build && cd build
+ sudo apt  install cmake
+ sudo apt-get install make cmake g++ libboost-dev libboost-system-dev   libboost-filesystem-dev libexpat1-dev zlib1g-dev   libbz2-dev libpq-dev libproj-dev lua5.2 liblua5.2-dev
+ cmake ..
+ make
+ sudo make install
+ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTS=ON
+ createdb gis1
+ sudo -u postgres psql -d gis1 -c 'CREATE EXTENSION postgis;'
+ sudo -u postgres psql -d gis1 -c  'CREATE EXTENSION hstore;'
+ osm2pgsql --database gis1 -s -W ~/Downloads/india-latest.osm.pbf
+====================================================================
+postgis installtion process
+==================================================================== 
+sudo apt-get install postgis
+https://download.geofabrik.de/asia/india-latest.osm.pbf
+ogr2ogr installation
+==============================
+#add ppa lauchpad for ubuntugis
+sudo add-apt-repository ppa:ubuntugis/ppa
+sudo apt-get update
+sudo apt-get install gdal-bin
+npm install ogr2ogr
+
+http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html
+
+sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
+sudo apt-get install gdal-bin
+ogrinfo
+
+node installation process
+==================================
+sudo apt-get remove nodejs -y
+sudo apt-get update
+curl -sL https://deb.nodesource.com/setup_10. | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install sqlite3
+node -v
+npm -v
+
+g++ and gcc installation process
+========================================
+https://askubuntu.com/questions/428198/getting-installing-gcc-g-4-9-on-ubuntu
+remove the g++ 
+sudo apt-get --purge remove gcc-5.4.0
+Needed to manually set which clang compiler is being used.
+
+Working install, for future reference:
+
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+sudo apt-get update -y
+sudo apt-get install -y gcc-6 g++-6 clang-3.8
+export CXX="clang++-3.8" && export CC="clang-3.8" # <- define versions
+
+# install mapnik
+git clone https://github.com/mapnik/mapnik mapnik-3.x --depth 10
+cd mapnik-3.x
+git submodule update --init
+sudo apt-get install python zlib1g-dev clang make pkg-config curl
+source bootstrap.sh
+./configure CUSTOM_CXXFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0" CXX=${CXX} CC=${CC} # <- pass versions
+make
+make test
+sudo make install
+
+sudo apt-get install libboost-all-dev
+
+========================================================
+  /* tile creation steps mbtiles to pbf file which is binary file not archive. */
+ 
+mb-util --image_format=pbf Label9.mbtiles Label9
+gzip -d -r -S .pbf *
+find . -type f  >blah
+1,$s/\(.*\)/mv \1 \1.pbf/
+
+==========================================================
+cd /usr/local/lib/
+sudo rm libexpat.so.1
+cd
+sudo ln -s /snap/core/7270/lib/x86_64-linux-gnu/libexpat.so.1.6.0 libexpat.so.1
+
+==========================================================
+bundler installation step
+before_install:
+- rvm implode --force
+- \curl -sSL https://get.rvm.io | bash -s 1.27.0
+- rvm reload
+- rvm install 2.2.3
+- gem uninstall -i /home/travis/.rvm/gems/ruby-2.2.3 bundler -x
+- gem install bundler -v 1.12.5
+=============================================
+geos problem in configuration
+-----------------------------------
+./configure LDFLAGS=-L/home/latlong/.rvm/rubies/ruby-2.3.0/lib/ CPPFLAGS="-I/home/latlong/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/x86_64-linux/ -I/home/latlong/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/"
+==========================================================
+mercury server
+---------------------------
+scp -P 2222 ananda@101.53.137.15
+==========================================================
+
+for c++ database connection libpqxx installation process
+==========================================================
+http://www.continualintegration.com/miscellaneous-articles/how-do-you-install-pqxx-on-an-aws-instance-of-ubuntu/
+
+===========================================================
+.deb file download and installation process link
+
+https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt
+
+===========================================================
+nginx uninstall process fully
+=====================================
+https://askubuntu.com/questions/235347/what-is-the-best-way-to-uninstall-nginx
+
+
+=============================================================
+Docker working function
+============================================================
+docker container ls
+docker network ls
+docker images
+docker exec -it c3936a486b48 /bin/bash
+psql -U openmaptiles
+apt-get update
+apt-get install vim
+%s/\s\+$//e   (each line end whitespace remove)
+1,$s/\(.*\)/\1 > \1.sql/
+
+-------------------------------------------------------------
+python3 installation link
+https://www.tecmint.com/install-python-in-linux/
+https://www.boost.org/doc/libs/1_61_0/more/getting_started/unix-variants.html
+https://github.com/mapnik/mapnik/wiki/DebianInstallation
+https://github.com/puuro/osm-tiles-easy
+https://www.linuxbabe.com/linux-server/openstreetmap-tile-server-ubuntu-16-04
+%s/\t/        /g
+-------------------------------------------------------------
+dpkg problem solve by below link
+https://www.linuxuprising.com/2018/07/how-to-fix-could-not-get-lock.html
+============================================================================
+geolocate
+=============================
+gdb ./geofindstandalone -tui
+find -name core -type f .
+find . -name core -type f
+ulimit
+ulimit -c unlimited
+ulimit -a
+sudo sysctl -w kernel.shmmax=524288000
+sudo sysctl -w kernel.shmall=32768000
+sudo sysctl -p /etc/sysctl.conf
+./shm_server -h localhost -u postgres -p postgres -d bharath2501 -k 2000
+CString m_strRequest = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><hash>  <method>    <rlim type=\"integer\">1</rlim>    <geolim type=\"integer\">1</geolim>    <ref type=\"integer\">0</ref>    <keyword>kolkata</keyword>    <reqtype type=\"integer\">101</reqtype>    <cityid type=\"integer\">510000021</cityid>    <go type=\"integer\">0</go>    <userid type=\"integer\">0</userid>    <senderid>9008890088</senderid>  </method></hash>";
+
+
+
